@@ -7,6 +7,9 @@ function displayWelcome(){
 displayWelcome();
 
 
+
+
+
 function calculateAverage(){
     $num1 = 75;
     $num2 = 85;
@@ -18,15 +21,16 @@ function calculateAverage(){
 calculateAverage();
 
 
+
+
 function GetGrade(){
-    $avg = 84.6;
-    if ($avg >= 90) {
+    if ($average >= 90) {
         echo "A";
-    } elseif ($avg >= 80) {
+    } elseif ($average >= 80) {
         echo "B";
-    } elseif ($avg >= 70) {
+    } elseif ($average >= 70) {
         echo "C";
-    } elseif ($avg >= 60) {
+    } elseif ($average >= 60) {
         echo "D";
     } else {
         echo "F";
@@ -34,6 +38,9 @@ function GetGrade(){
 }
 
 GetGrade();
+
+
+
 
 
 
